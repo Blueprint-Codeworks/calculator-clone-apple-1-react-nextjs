@@ -16,7 +16,7 @@
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background:#171717;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -24,4 +24,27 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* Estilo para el scrollbar en navegadores webkit (Chrome, Safari, etc.) */
+/* Cambia el color del scrollbar */
+::-webkit-scrollbar {
+  width: 5px; /* Ancho del scrollbar */
+}
+
+/* Cambia el color del fondo del scrollbar */
+::-webkit-scrollbar-track {
+  background: #1a1a1a; /* Color del fondo */
+}
+
+/* Cambia el color del thumb (la parte deslizable del scrollbar) */
+::-webkit-scrollbar-thumb {
+  background: #cccccc;
+  border-radius: 5px;
+
+}
+
+/* Cambia el color del thumb cuando se desplaza */
+::-webkit-scrollbar-thumb:hover {
+  background: #cccccc; /* Color del thumb al pasar el mouse */
 }
